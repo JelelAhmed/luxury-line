@@ -1,23 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import HomePage from './homepage.component';
 
 
-class App extends Component {
-	constructor() {
-		super();
-
-		this.state = {
-			string: 'hello Jelel'
-		}
-	}
-
-	render () {
+const App = () =>  {
 		return (
-			<div>
-				<h2>Hello World</h2>
-    	</div>
+			<HomePage />
 		)
-	}
 }
 
 
